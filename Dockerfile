@@ -4,7 +4,7 @@ FROM ubuntu:16.04
 ENV JMETER_VERSION 5.0
 ENV JMETER_HOME /usr/local/apache-jmeter-${JMETER_VERSION}
 ENV JMETER_BIN $JMETER_HOME/bin
-ENV IP 127.0.0.1
+ENV IP 0.0.0.0
 ENV RMI_PORT 1099
 ENV JMETER_DOWNLOAD_URL  https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-${JMETER_VERSION}.tgz
 
